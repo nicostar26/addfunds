@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.addFunds{
+    height: 40px;
+    width: 120px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+}
+
+.appwindow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.fundstyle{
+    border: silver 1px solid;
+    height: 100px;
+    width: 100%;
+    padding: 0px 20px;
+    display: none;
+}
+
+.fundingItems{
+    height: auto;
+    width: 500px;
+}
+
+.info{
+    width: 50%;
+}
+
+.info h2{
+    color: blue;
+}
+
+.info h3{
+    color: #4E4E4C;
+}
+.amount{
+    width: 50%;
+    text-align: right;
+    color: #4E4E4C;
+}
