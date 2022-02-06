@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #B6F0F2;
+}
+
 .addFunds{
     height: 40px;
     width: 120px;

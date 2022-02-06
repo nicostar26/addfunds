@@ -1,9 +1,24 @@
 const button = document.querySelector('.addFunds')
-const items = document.querySelectorAll('.funds')
+const item1 = document.querySelector('.fund1')
+const item2 = document.querySelector('.fund2')
+const item3 = document.querySelector('.fund3')
+const item4 = document.querySelector('.fund4')
 
 button.addEventListener('click', () => {
-    
-    for(i=0; i < items.length; i++){
-        console.log(items)
-    }
+    setTimeout(() => {
+        item1.style.display = "flex"
+    }, 1000);
+
+    setTimeout(() => {
+        item2.style.display = "flex"
+    }, 1200);
+
+    setTimeout(() => {
+        item3.style.display = "flex"
+    }, 1300);
+
+    setTimeout(() => {
+        item4.style.display = "flex"
+    }, 1400);
+
 })
