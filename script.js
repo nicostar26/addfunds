@@ -4,6 +4,10 @@ const item2 = document.querySelector('.fund2')
 const item3 = document.querySelector('.fund3')
 const item4 = document.querySelector('.fund4')
 
+
+//Maybe querySelectorAll and then loop through iteration like [i] where i++
+
+
 button.addEventListener('click', () => {
     setTimeout(() => {
         item1.style.display = "flex"
